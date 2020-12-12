@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+  <body>
+    <p id="demo"></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+var names = ["Andi", {"Name": "Gunawan", "Address": "Jl. Kemerdekaan 01"}, "Budi"];
+var names2 = ["Andi", {"Name": "Gunawan", "Address": "Jalan Protokol Blok A No 1"}, "Budi"];
+names = names2.slice(0);
+
+var myArray = JSON.stringify(names[1]);
+document.getElementById("demo").innerHTML = myArray;		
+</script>
+</body>
+</html>

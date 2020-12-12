@@ -1,0 +1,8 @@
+public function datatables(){
+    return view('admin/posts/datatables');
+  }
+
+  // show all posts data
+  public function postsdata(){
+    return Datatables::of(\App\Posts::all())->make(true);
+  }

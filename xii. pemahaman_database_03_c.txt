@@ -1,0 +1,6 @@
+SELECT COUNT(school_name) AS JumlahSekolah, inaugurated_date
+FROM school
+WHERE inaugurated_date='2020-01-25';
+
+SELECT school_name, COUNT(inaugurated_date)
+FROM school;

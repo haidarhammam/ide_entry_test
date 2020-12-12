@@ -1,0 +1,2 @@
+.env = untuk mengatur konfigurasi dari environment, memudahkan kita dalam mengubah pengaturan yang ingin kita sesuaikan dengan project aplikasi yang ingin kita buat dengan laravel
+direktori config = direktori ini berisi file-file konfigurasi aplikasi

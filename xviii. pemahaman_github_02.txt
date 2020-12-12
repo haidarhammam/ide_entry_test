@@ -1,0 +1,6 @@
+1. Baca Aturan Berkontribusi
+2. Fork & Clone Repository
+3. Buat Branch Baru
+4. Lakukan Modifikasi / Kontribusi
+4. Push Kontribusi yang sudah dibuat
+5. Membuat Pull Request
